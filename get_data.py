@@ -2,6 +2,7 @@ from scrapethat import *
 import requests
 import json
 import datetime
+import os
 
 # if data folder not exist create it
 if not os.path.exists("data"):
