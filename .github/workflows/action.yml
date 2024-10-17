@@ -28,7 +28,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           pip install scrapethat
-          pip install json
     
       - name: execute py script # run main.py
         run: python get_data.py
