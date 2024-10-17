@@ -19,5 +19,5 @@ mtime = now.strftime("%y_%m_%d_%H_%M")
 filename = f"data/{mtime}.json"
 
 # Save the list to a file
-with open("sample.json", "w") as outfile:
+with open(filename, "w") as outfile:
     json.dump(data, outfile)
